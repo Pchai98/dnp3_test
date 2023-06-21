@@ -1,4 +1,4 @@
-package com.github.ungoodman.dnp3.logger;
+package com.github.ungoodman.dnp3.service.logger;
 
 import io.stepfunc.dnp3.LogLevel;
 import io.stepfunc.dnp3.Logger;

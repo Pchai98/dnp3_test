@@ -2,9 +2,10 @@ package com.github.ungoodman.dnp3.service;
 
 import com.github.ungoodman.dnp3.handler.SimulateAssociationHandler;
 import com.github.ungoodman.dnp3.listener.SimulateClientStateListener;
-import com.github.ungoodman.dnp3.logger.LoggingFileReader;
+import com.github.ungoodman.dnp3.service.logger.LoggingFileReader;
 import com.github.ungoodman.dnp3.config.MasterConfiguration;
 import com.github.ungoodman.dnp3.handler.SimulateReadHandler;
+import com.github.ungoodman.dnp3.service.util.SimulateAssociationInformation;
 import io.stepfunc.dnp3.*;
 import io.stepfunc.dnp3.Runtime;
 
@@ -16,10 +17,10 @@ import java.util.List;
 import static org.joou.Unsigned.*;
 import static org.joou.Unsigned.ubyte;
 
-public class MasterSimulator {
+public class MasterSimulatorService {
     private Runtime runtime;
 
-    public MasterSimulator(Runtime runtime) {
+    public MasterSimulatorService(Runtime runtime) {
         this.runtime = runtime;
     }
 

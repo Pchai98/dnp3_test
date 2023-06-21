@@ -1,4 +1,4 @@
-package com.github.ungoodman.dnp3.service;
+package com.github.ungoodman.dnp3.service.util;
 
 import io.stepfunc.dnp3.AssociationInformation;
 import io.stepfunc.dnp3.FunctionCode;
